@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(45deg, #4b04a8, #9e05bd, #b305f8, #0099ff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    user-select: none;
+}
+
+@keyframes gradient {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+
+h1 {
+    position: fixed;
+    top: 6%;
+    left: 2.8%;
+    font-size: 4em;
+    color: #ffffff;
+    animation-name: wave;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes wave {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: -15px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+h2 {
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color:white;
+}
+
+button {
+    position: fixed;
+    width: 17vh;
+    height: 4vh;
+    color: white;
+    background-color: #9c07f373;
+    border-radius: 1vh;
+    border-style: none;
+    transition-duration: 0.2s;
+    outline-style: none;
+}
+
+button:hover {
+    background-color: #891fc773;
+}
+
+button:active {
+    background-color: #ce8af567;
+}
+
+input {
+    position: fixed;
+    width: 30vh;
+    height: 3.7vh;
+    border-radius: 1vh;
+    border-style: none;
+    background-color: #b33df773;
+    color: white;
+    font-weight: bold;
+    transition-duration: 0.2s;
+    outline-style: none;
+}
+
+input:hover {
+    background-color: #891fc773;
+}
+
+input:active {
+    background-color: #cd80faf6;
+}
+
+.container {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    gap: 3vh;
+}
+
+.container-chat {
+    position: static;
+    margin-top: 10%;
+    margin-left: 1%;
+    display: flex;
+    width: 70vh;
+    height: 90vh;
+    border-color: white;
+    border-style: solid;
+    border-radius: 1vh;
+}
+
+.container-controles {
+    position: static;
+    margin-top: 20%;
+    margin-left: 13%;
+    display: inline-block;
+    justify-content: space-between;
+    width: 49vh;
+    height: 10vh;
+}
+
+.container-canal {
+    width: 100%;
+    margin-bottom: 1vh;
+}
+
+#controles-input-canal {
+    position: static;
+    margin-right: 1vh;
+}
+
+#controles-botao-conectar {
+    position: static;
+}
+
+#controles-botao-jogar {
+    position: static;
+    width: 100%;
+}
+
+#ChatTwitch {
+    position: static;
+    width: 100%;
+    height: 75vh;
+    margin-right: 0.3vh;
+    overflow-y: scroll;
+}
+
+#ChatTwitch::-webkit-scrollbar {
+    width: 0.8vh;
+    background: none;
+}
+
+#ChatTwitch::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 1vh;
+}
+
+#ChatTwitch::-webkit-scrollbar-thumb:hover {
+    background-color: gray;
+}
+
+.Mensagem {
+    overflow-wrap: anywhere;
+    color: white;
+    margin-top: 0.5%;
+    margin-left: 2%;
+}

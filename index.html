@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TwitchGames</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>!TwitchGames</h1>
+        <div class="container-chat">
+            <div id="ChatTwitch">
+            </div>
+        </div>
+        <div class="container-controles">
+            <div class="container-canal"><input type="text" id="controles-input-canal"><button id="controles-botao-conectar">Conectar</button></div>
+            <button onclick="jogar()" id="controles-botao-jogar">Jogar</button>
+        </div>
+    </div>
+
+    <h2>Made by FelipeLucca ;)</h2>
+</body>
+<script type="module" src="src/script.js"></script>
+<script src="src/tmi.min.js"></script>
+</html>  
