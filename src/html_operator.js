@@ -62,7 +62,7 @@ export class HTML_Operator {
         div_container_canal.removeChild(input_canal);
         div_container_canal.removeChild(botao_conectar);
 
-        let texto_conectado = document.createElement('span');
+        let texto_conectado = document.createElement('div');
         let botao_jogar = document.createElement('button');
         let botao_mudar_chat = document.createElement('button');
         

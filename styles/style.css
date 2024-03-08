@@ -130,7 +130,7 @@ input:active {
     margin-left: 13%;
     display: inline-block;
     justify-content: space-between;
-    width: 48vh;
+    width: 49vh;
     height: 10vh;
 }
 
@@ -157,6 +157,13 @@ input:active {
 #controles-botao-mudar-canal {
     position: static;
     width: 40%;
+}
+
+#controles-texto {
+    position: static;
+    width: 100%;
+    color: white;
+    font-family: math;
 }
 
 #ChatTwitch {
