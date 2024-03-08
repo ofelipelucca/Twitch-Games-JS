@@ -61,7 +61,7 @@ span {
 button {
     position: fixed;
     width: 17vh;
-    height: 4vh;
+    height: 6vh;
     color: white;
     font-size: 2vh;
     font-weight: bold;
@@ -80,13 +80,13 @@ button:hover {
 button:active {
     background-color: #ce8af567;
     width: 16.4vh;
-    height: 3.4vh;
+    height: 4.4vh;
 }
 
 input {
     position: fixed;
     width: 30vh;
-    height: 3.7vh;
+    height: 5.4vh;
     border-radius: 1vh;
     border-style: none;
     background-color: #b33df773;
